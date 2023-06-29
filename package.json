@@ -6,11 +6,13 @@
   "scripts": {
     "watch": "tailwindcss -i ./style.css -o ./dist/output.css --watch",
     "build": "tailwindcss -i ./style.css -o ./dist/output.css"
-    
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.2.2"
+  },
+  "dependencies": {
+    "tw-elements": "^1.0.0-beta2"
   }
 }
